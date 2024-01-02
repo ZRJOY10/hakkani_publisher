@@ -1,0 +1,181 @@
+/* carousel start */
+
+body{
+    font-family: poppins;
+}
+
+.carousel-item{
+    height: 70vh;
+    min-height: 300px;
+    background: rgb(0, 0, 0, 0);
+}
+
+.carousel-caption{
+    bottom: 220px;
+}
+
+.carousel-caption h5{
+    font-style: 60px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    font-weight: 900;
+}
+
+.carousel-caption p{
+    font-style: 18px;
+    margin: auto;
+    width: 60%;
+    line-height: 1.9;
+}
+
+.carousel-caption a{
+    text-transform: uppercase;
+    background: darkorange;
+    padding: 10px 30px;
+    display: inline-block;
+    color: #fff;
+    margin-top: 15px;
+    border-radius: 50px;
+}
+
+.w-100{
+    height: 100vh;
+}
+
+/* carousel end */
+
+
+/* catagory */
+
+.catagoryButton{
+    background-color: rgb(207, 152, 85);
+    border-radius: 20px;
+}
+
+.catagoryButton:hover{
+    background-color: rgb(230, 192, 147);
+    transition: 0.3s;
+}
+
+
+/* newbooks */
+
+.newBooksButton{
+    background-color: rgb(207, 152, 85);
+    border-radius: 0px !important;
+}
+
+.newBooksButton:hover{
+    background-color: rgb(230, 192, 147);
+    transition: 0.3s;
+}
+
+
+.newBooksPrice:hover{
+    color: rgb(207, 152, 85);
+}
+
+.newBooksLabel {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    bottom: auto;
+    right: auto;
+    font-weight: 500;
+    font-size: 12px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50rem;
+    background-color: rgba(67, 168, 0, .8); 
+    color: #FFFFFF;
+}
+
+.newBooksLabel-2{
+    position: absolute;
+    top: 18px;
+    left: 0px;
+    bottom: auto;
+    right: auto;
+    font-weight: 500;
+    padding: 0 6px;
+    font-size: 12px;
+    line-height: 18px;
+    background-color: rgba(168, 0, 0, .8); 
+    color: #FFFFFF;
+    box-sizing: border-box;
+}
+
+.newBooksLabel-2-after {
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    bottom: auto;
+    right: auto;
+    border-style: solid;
+    border-width: 9px;
+    width: 0;
+    height: 0;
+    border-color: rgba(168, 0, 0,.5) transparent rgba(168, 0, 0,.5) rgba(168, 0, 0,.8);
+}
+
+
+
+/* icon hover effect */
+.newBooks:hover{
+    transform: scale(1.01);
+    transition: 0.4s;
+    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+.newBooksBox .newBooksIcon{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+    transition: all .5s ease-in-out;
+}
+
+.newBooksBox .newBooksIcon li{
+    margin: 0 3px 0 0;
+    /* display: inline-block;  */
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.newBooks:hover .newBooksIcon li{
+    opacity: 1; 
+}
+
+.newBooks .newBooksIcon li a{
+    color: #0f070a99;
+    background-color: #f6e8e8;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 5px;
+    height: 30px;
+    width: 30px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    display:inline-block;
+    text-align: center;
+    transform: rotate(0);
+    transition: all 0.3s;
+}
+
+.newBooks:hover .newBooksIcon li a{
+    color: #0b0708;
+    background:#f3eaea;
+    border-color: #030202;
+    /* transform: rotate(360deg); */
+}

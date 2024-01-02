@@ -1,0 +1,92 @@
+.navbar-dark .navbar-nav a.nav-link {
+    color: #ffffff;
+    font-size: 1.1em;
+  }
+  .dropdown-menu {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border: none;
+    border-radius: 0;
+    padding: 0.7em;
+  }
+  @media only screen and (min-width: 992px) {
+    .dropdown:hover .dropdown-menu {
+      display: flex;
+    }
+    .dropdown-menu.show {
+      display: flex;
+    }
+  }
+  .dropdown-menu ul {
+    list-style: none;
+    padding: 3px;
+  }
+  .dropdown-menu li .dropdown-item {
+    color: #000;
+    font-size: 1em;
+    padding: 0.5em 1em;
+  }
+  .dropdown-menu li .dropdown-item:hover {
+    background-color: #f1f1f1;
+  }
+  .dropdown-menu li:first-child a {
+    font-weight: bold;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: #9c670b;
+    border-bottom: 1px solid #9c670b;
+  }
+  .dropdown-menu li:first-child a:hover {
+    background-color: #f1f1f1;
+  }
+  @media only screen and (max-width: 992px) {
+    .dropdown-menu.show {
+      flex-wrap: wrap;
+      max-height: 350px;
+      overflow-y: scroll;
+    }
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1140px) {
+    .dropdown:hover .dropdown-menu {
+      width: 40vw;
+      flex-wrap: wrap;
+    }
+  }
+
+
+
+
+
+  /*    Top bar design      */
+
+  .top_bar{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    height: 50px;
+    justify-content:space-around;
+    border: 1px solid rgb(228, 228, 228);
+  }
+
+  .top_bar .box{
+    color: #b57a15;
+  }
+
+  .top_bar p{
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .top_bar .box img{
+    height: 20px;
+  }
+
+  .header{
+    border-bottom: 2px solid gainsboro;
+    box-shadow: 4px 4px 3px gainsboro;
+  }
+
+  .text_fn{
+    font-size: 24px;
+    font-weight: 500;
+
+  }

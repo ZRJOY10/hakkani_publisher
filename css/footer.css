@@ -1,0 +1,42 @@
+.footer{
+
+    color: white;
+}
+.email{
+    width: 500px;
+    height: 45px;
+}
+.search-btn{
+   width: 28px;
+   height: 45px;
+   border:none;
+    background: none;
+    font-size: 20px;
+    color:rgb(5, 39, 69);
+    margin-left: -35px;
+}
+.footer-info{
+    color: white;
+    font-size: 17px;
+    margin-left: 80px;
+    font-weight: 200;
+}
+.footer-bg{
+    background-color:#232f3e;
+}
+.menu{
+    font-size: 22px;
+    font-weight: 350;
+    color:#d2ab66
+}
+
+#icon
+{
+    padding: 4px;
+    font-size: 25px;
+}
+.hori{
+    background-color:rgb(165, 163, 163);
+    height: 0.3px;
+    width: 90%;
+}
